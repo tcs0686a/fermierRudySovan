@@ -1,4 +1,3 @@
-
 package com.example.demo.entities;
 
 import java.io.Serializable;
@@ -19,17 +18,12 @@ public class Gerant implements Serializable {
 	private Long idGerant;
 	private String nom;
 	private String prenom;
-	
 	@ManyToOne
 	private Ferme ferme;
 	
-	
-	
 	public Gerant() {
-		super();
 	}
 	public Gerant(String nom, String prenom) {
-		super();
 		this.nom = nom;
 		this.prenom = prenom;
 	}
@@ -51,7 +45,4 @@ public class Gerant implements Serializable {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	
-	
-	
 }
