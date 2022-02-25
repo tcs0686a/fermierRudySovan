@@ -1,5 +1,6 @@
 package com.example.demo.entities;
 
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -77,5 +78,5 @@ public class Ferme implements Serializable{
 	public String toString() {
 		return "Ferme [idFerme=" + idFerme + ", nom=" + nom + ", dateAchat=" + dateAchat + "]";
 	}
-	
+
 }
